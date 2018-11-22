@@ -23,9 +23,8 @@
           data: data
         });
       }
-    }
+    };
   };
-
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.wxPromisify;
