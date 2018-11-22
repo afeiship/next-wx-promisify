@@ -1,0 +1,28 @@
+{
+  "name": "next-wx-promisify",
+  "version": "0.0.1",
+  "description": "Promisify for weixin/weapp succes/failed/complete",
+  "main": "dist/next-wx-promisify.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-wx-promisify",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
