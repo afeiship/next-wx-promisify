@@ -5,16 +5,16 @@
 
   nx.wxPromisify = function (resolve, reject) {
     return {
-      success: function (resp) {
+      success: function (data) {
         resolve({
           code: 1,
-          data: resp
+          data: data
         });
       },
-      fail: function (error) {
+      fail: function (data) {
         reject({
           code: -1,
-          data: error
+          data: data
         });
       },
       complete: function (data) {
