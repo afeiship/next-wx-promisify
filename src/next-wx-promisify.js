@@ -7,19 +7,13 @@
     return {
       success: function (data) {
         resolve({
-          code: 1,
+          code: 0,
           data: data
         });
       },
       fail: function (data) {
         reject({
-          code: -1,
-          data: data
-        });
-      },
-      complete: function (data) {
-        resolve({
-          code: 0,
+          code: 1,
           data: data
         });
       }

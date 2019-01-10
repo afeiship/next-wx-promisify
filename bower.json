@@ -1,6 +1,6 @@
 {
   "name": "next-wx-promisify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Promisify for weixin/weapp succes/failed/complete",
   "main": "dist/next-wx-promisify.js",
   "authors": [
